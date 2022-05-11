@@ -1,12 +1,12 @@
-### LAB- 201
+# LAB- 201
 
-### Project: About-Me
+# Project: About-Me
 
-# Im building an interactive page that allows the user to gain some insight into my life while keeping them engaged with notable trivia facts.
+## Im building an interactive page that allows the user to gain some insight into my life while keeping them engaged with notable trivia facts.
 
-## Author: Marvin B.
+# Author: Marvin B.
 
-## repo
+# repo
 
 
 

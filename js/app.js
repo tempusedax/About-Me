@@ -1,13 +1,17 @@
 'use strict';
 
-// let userResponseOne = prompt('What is your name?');
-//             alert('Hello there ' + userResponseOne + '. That is a lovely name.');
 
-//             let userResponseTwo = prompt('How old are you?');
-//             alert('So ' + userResponseOne + ' is ' + userResponseTwo + '.');
+  let welcomeUser = prompt('What is your name?');
+    alert('Hello there ' + welcomeUser + '. That is a lovely name. Welcome. Lets play a guessing game. Remember, yes/y or no/n answers only. ');
 
-//             let userResponseThree = prompt('Where are you from?');
-//             alert(userResponseOne + ', hailing from ' + userResponseThree + ' happens to also be ' + userResponseTwo + '. The world is much better for it.');
+  let userAnswer1 = prompt('Have I been to Frace?').toLowerCase();
+    if (userAnswer1 === 'y' || userAnswer1 === 'yes') {
+      alert('You got that one right. Nice one');
+    } else if (userAnswer1 === 'n' || userAnswer1 === 'no') {
+      alert('You got that one incorrect. Bing bong.');
+    } else alert(welcomeUser + 'You didnt follow directions... like at all.')
 
-//             let userResponseFour = prompt('What is your favorite food?');
-//             alert(userResponseOne + ', a lover of ' + userResponseFour + ', was also born in ' + userResponseThree +'. Imagine being that cool at ' + userResponseTwo + '.');
+
+    
+
+

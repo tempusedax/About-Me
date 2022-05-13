@@ -25,13 +25,15 @@ function userGuessOne(){
 
 function userGuessTwo(){
 
-  let userAnswer2 = prompt('I am the only child sadly.').toLowerCase();
-    if (userAnswer2 === 'y' || userAnswer2 === 'yes') {
-      alert('I have six older siblings. Very wrong friend.');
-    } else if (userAnswer2 === 'n' || userAnswer2 === 'no') {
-      alert('Correctamundo. I am actually the youngest of 6');
-    } else alert(welcomeUser + ' You didnt follow directions... like at all.')
-  };
+// <<<<<<< main
+//   let userAnswer2 = prompt('I am the only child sadly.').toLowerCase();
+//     if (userAnswer2 === 'y' || userAnswer2 === 'yes') {
+//       alert('I have six older siblings. Very wrong friend.');
+//     } else if (userAnswer2 === 'n' || userAnswer2 === 'no') {
+//       alert('Correctamundo. I am actually the youngest of 6');
+//     } else alert(welcomeUser + ' You didnt follow directions... like at all.')
+//   };
+// >>>>>>> main
 
   function userGuessThree(){ 
   let userAnswer3 = prompt('Sci-fi is my favorite kind of media?').toLowerCase();
